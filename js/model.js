@@ -2,7 +2,7 @@
     function model() {
         this.data = [];
         var xhr = new XMLHttpRequest();
-        xhr.open("get", "https://api.zype.com/playlists/58e9ae876689bc59e1013c78/videos?app_key=UIGFTQqMrQKdJCPBUoYOodjq76vQqXiYiApM36emwO5TRyNvLROXDZX009ntr9qv&per_page=100", false);
+        xhr.open("get", "", false);
         xhr.send(null);
         xhr.onreadyStatechange = function() {
             if (xhr.readyState == 4) {
